@@ -1,4 +1,4 @@
-class product {
+class Product {
   constructor(name, price, quantity) {
     this.name = name;
     this.price = price;
@@ -8,7 +8,7 @@ class product {
     return this.price * this.quantity;
   }
   toString() {
-    return "product: " + this.name + ", price: $" + this.price + ", quantity:" this.quantity;
+    return "product: " + this.name + ", price: $" + this.price + ", quantity:" + this.quantity;
   }
   static applyDiscount(products, discount) {
     for (let i = 0; i < products.length; i++) {
