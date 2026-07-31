@@ -57,3 +57,4 @@ let perishable2 = new PerishableProduct("eggs", 2.20, 13, "2026-06-30");
 let store = new Store();
 store.addProduct(product1);
 store.addProduct(product2);
+store.addProduct(product3);
