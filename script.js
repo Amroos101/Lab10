@@ -63,3 +63,4 @@ store.addProduct(perishable2);
 console.log("total before discount: $" + store.getInventoryValue());
 Product.applyDiscount(store.inventory, 0.25);
 console.log("total after discount: $" + store.getInventoryValue());
+let found = store.findProductByName("milk");
