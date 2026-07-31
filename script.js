@@ -59,3 +59,4 @@ store.addProduct(product1);
 store.addProduct(product2);
 store.addProduct(product3);
 store.addProduct(perishable1);
+store.addProduct(perishable2);
