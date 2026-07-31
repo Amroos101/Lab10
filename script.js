@@ -49,3 +49,4 @@ class Store {
     return null;
   }
 }
+let product1 = new Product("chocolate" , 2.25, 40);
