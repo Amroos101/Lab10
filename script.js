@@ -33,4 +33,19 @@ class Store {
   addProduct(product) {
     this.inventory.push(product);
   }
+  getInventoryValue() {
+    let total = 0;
+    for (let i = 0; i < this.inventory.length; i++) {
+      total = total + this.inventory[i].getTotalValue();
+    }
+    return total;
+  }
+  findProductByName(name) {
+    for (let i = 0; i < this.inventory.length; i++) {
+      if (this.inventory[i].name === name) {
+        return this.inventory[i];
+      }
+    }
+    return null;
+  }
 }
