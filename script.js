@@ -16,3 +16,12 @@ class product {
     }
   }
 }
+class PerishableProduct extends Product {
+    constructor(name, price, quantity, expirationDate) {
+        super(name, price, quantity);
+        this.expirationDate = expirationDate;
+    }
+    toString() {
+        return "product: " + this.name + ", price: $" + this.price + ", quantity " + this.quantity + ", expiration Date: " + this.expirationDate;
+    }
+}
