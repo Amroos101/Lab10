@@ -50,3 +50,4 @@ class Store {
   }
 }
 let product1 = new Product("chocolate" , 2.25, 40);
+let product2 = new Product("book" , 1.14, 30);
