@@ -25,3 +25,12 @@ class PerishableProduct extends Product {
         return "product: " + this.name + ", price: $" + this.price + ", quantity " + this.quantity + ", expiration Date: " + this.expirationDate;
     }
 }
+class Store {
+  constructor() {
+    this.inventory = [];
+  
+  }
+  addProduct(product) {
+    this.inventory.push(product);
+  }
+}
