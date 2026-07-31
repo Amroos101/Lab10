@@ -58,3 +58,4 @@ let store = new Store();
 store.addProduct(product1);
 store.addProduct(product2);
 store.addProduct(product3);
+store.addProduct(perishable1);
