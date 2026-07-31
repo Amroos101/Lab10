@@ -4,4 +4,7 @@ class product {
     this.price = price;
     this.quantity = quantity;
   }
+  getTotalValue() {
+    return this.price * this.quantity;
+  }
 }
