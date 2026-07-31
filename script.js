@@ -52,3 +52,4 @@ class Store {
 let product1 = new Product("chocolate" , 2.25, 40);
 let product2 = new Product("book" , 1.14, 30);
 let product3 = new Product("water" , 10, 45);
+let perishable1 = new PerishableProduct("milk", 1.50, 20, "2026-07-30");
