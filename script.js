@@ -7,4 +7,7 @@ class product {
   getTotalValue() {
     return this.price * this.quantity;
   }
+  toString() {
+    return "product: " + this.name + ", price: $" + this.price + ", quantity:" this.quantity;
+  }
 }
