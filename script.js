@@ -10,4 +10,9 @@ class product {
   toString() {
     return "product: " + this.name + ", price: $" + this.price + ", quantity:" this.quantity;
   }
+  static applyDiscount(products, discount) {
+    for (let i = 0; i < products.length; i++) {
+      products[i].price = products[i].price - (products[i].price * discount);
+    }
+  }
 }
